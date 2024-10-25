@@ -7,3 +7,8 @@ startButton.addEventListener('click', () => {
   const interval = intervalInput.value
   window.electron.start(exercises, interval)
 })
+
+const stopButton = document.getElementById('stop')
+stopButton.addEventListener('click', () => {
+  window.electron.stop()
+})

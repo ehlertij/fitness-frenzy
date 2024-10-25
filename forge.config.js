@@ -6,7 +6,7 @@ module.exports = {
     name: 'Fitness Frenzy',
     asar: true,
     icon: 'images/logo',
-    osxSign: {}
+    // osxSign: {}
   },
   rebuildConfig: {},
   makers: [

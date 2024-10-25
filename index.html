@@ -14,12 +14,22 @@
     <main class="container">
       <h1>FITNESS FRENZY</h1>
       <label for="exercises">Enter exercises</label>
-      <textarea id="exercises" placeholder="One exercise per line"></textarea>
+      <textarea id="exercises" style="height: 250px" placeholder="One exercise per line">10 squats
+10 lunges
+30s plank
+30s wall sit
+30 jumping jacks
+5 burpees
+20 mountain climbers
+10 supermans
+10 tricep dips
+20 situps</textarea>
 
       <label for="interval">Interval in minutes</label>
-      <input type="number" id="interval" />
+      <input type="number" id="interval" value="60" />
 
       <button id="start">Start</button>
+      <button id="stop">Stop</button>
     </main>
 
     <script src="./renderer.js"></script>
